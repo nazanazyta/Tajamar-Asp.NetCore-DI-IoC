@@ -1,0 +1,44 @@
+<PELICULAS>
+    <PELICULA>
+        <ID>1</ID>
+        <NOMBRE>El sexto sentido - XML</NOMBRE>
+        <DIRECTOR>M. Night Shyamalan</DIRECTOR>
+        <CLASIFICACION>Drama</CLASIFICACION>
+    </PELICULA>
+    <PELICULA>
+        <ID>2</ID>
+        <NOMBRE>Pulp Fiction - XML</NOMBRE>
+        <DIRECTOR>Tarantino</DIRECTOR>
+        <CLASIFICACION>Acción</CLASIFICACION>
+    </PELICULA>
+    <PELICULA>
+        <ID>3</ID>
+        <NOMBRE>Todo sobre mi madre - XML</NOMBRE>
+        <DIRECTOR>Almodobar</DIRECTOR>
+        <CLASIFICACION>Drama</CLASIFICACION>
+    </PELICULA>
+    <PELICULA>
+        <ID>4</ID>
+        <NOMBRE>300 - XML</NOMBRE>
+        <DIRECTOR>Zack Snyder</DIRECTOR>
+        <CLASIFICACION>Acción</CLASIFICACION>
+    </PELICULA>
+    <PELICULA>
+        <ID>5</ID>
+        <NOMBRE>El silencio de los corderos - XML</NOMBRE>
+        <DIRECTOR>Jonathan Demme</DIRECTOR>
+        <CLASIFICACION>Drama</CLASIFICACION>
+    </PELICULA>
+    <PELICULA>
+        <ID>6</ID>
+        <NOMBRE>Forrest Gump - XML</NOMBRE>
+        <DIRECTOR>Robert Zemeckis</DIRECTOR>
+        <CLASIFICACION>Comedia</CLASIFICACION>
+    </PELICULA>
+    <PELICULA>
+        <ID>7</ID>
+        <NOMBRE>Las Hurdes - XML</NOMBRE>
+        <DIRECTOR>Luis Buñuel</DIRECTOR>
+        <CLASIFICACION>Documental</CLASIFICACION>
+    </PELICULA>
+</PELICULAS>

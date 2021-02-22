@@ -1,0 +1,32 @@
+﻿@model List<Pelicula>
+<h1 style="color: mediumslateblue">LISTA DE PELÍCULAS</h1>
+<table class="table table-info">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Pelicula peli in Model)
+        {
+            <tr>
+                <td>@peli.Nombre</td>
+                <td>
+                    <a asp-action="Detalles"
+                       asp-controller="Home"
+                       asp-route-id="@peli.IdPelicula"
+                       class="btn btn-info">
+                        Ver los detalles
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
+
+
+
