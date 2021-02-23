@@ -12,23 +12,23 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
 
-namespace MvcCore
+namespace DI
 {
     public class Startup
     {
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddTransient<IRepository, RepositorySql>();
-            //services.AddTransient<IRepository, RepositoryMySql>();
-            //services.AddTransient<IRepository, RepositoryXML>();
             String cadenasql =
                 "Data Source=localhost;Initial Catalog=PRUEBAS;User ID=sa;Password=MCSD2020";
-            //String cadenamysql =
-            //    "server=localhost;database=pruebas;user id=root;password=admin;";
             services.AddDbContext<PruebasContext>
                 (options => options.UseSqlServer(cadenasql));
+            services.AddTransient<IRepository, RepositorySql>();
+            //String cadenamysql =
+            //    "server=localhost;database=pruebas;user id=root;password=admin;";
             //services.AddDbContextPool<PruebasContext>
             //    (options => options.UseMySql(cadenamysql, ServerVersion.AutoDetect(cadenamysql)));
+            //services.AddTransient<IRepository, RepositoryMySql>();
+            //services.AddTransient<IRepository, RepositoryXML>();
             services.AddControllersWithViews();
         }
 
